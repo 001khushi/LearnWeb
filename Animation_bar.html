@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .progress{
+            background-color: red;
+            height: 3px;
+        }
+        header{
+            height: 100px;
+           background-color: black;
+        }
+        .container{
+            height: 900px;
+            background-color: blue;
+        }
+        @keyframes load{
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 60vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <div class="container"></div>
+</body>
+</html>
